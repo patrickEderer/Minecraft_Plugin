@@ -1,0 +1,18 @@
+name: LS
+version: '${project.version}'
+main: me.commandkind.lifesteal.Lifesteal
+api-version: '1.20'
+commands:
+  pvp:
+    description: pvp manager!
+    usage: /pvp
+    permission: commandkind.pvp
+    permission-message: You don't have permission!
+  team:
+    description: team manager!
+    usage: /team
+    aliases:
+      - teams
+  deaths:
+    description: Death counter!
+    usage: /deaths

@@ -1,0 +1,18 @@
+pvp:
+# Time in combat (seconds) and you need to add the L for reasons
+  CombatTime: 5L
+
+# The filename of the nether dimension
+  NetherWorldName: world_nether
+
+  EndWorldName: world_the_end
+
+team:
+# The max character limit a team can have in their prefix
+  MaxPrefixLength: 20
+
+# The max character limit a team can have in their chat message prefix
+  MaxChatPrefixLength: 5
+
+# The time it takes for a team invitation to expire (seconds)
+  InviteExpireTime: 20
